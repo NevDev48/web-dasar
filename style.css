@@ -1,0 +1,192 @@
+.i a:hover{
+    font-weight: bold;
+}
+*{
+   box-sizing: border-box;
+}
+header {
+    text-align: center;
+    background-color: rgb(87, 87, 231);
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.scroll{
+    background-color: blue;
+    overflow: hidden;
+}
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    height: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 25px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(7, 97, 216);
+    text-decoration-color: black;
+}
+
+main{
+   padding: 20px;
+  overflow: auto;
+}
+.gmbrsjh {
+    width: 50%;
+    max-height: 300px;
+ }
+ .sjrh1{
+    text-indent: 2em;
+    text-align: justify;
+    width: 600px;
+    font-family:'Times New Roman';
+ }
+ .sjrh2{
+    text-indent: 2em;
+    width: 600px;
+    text-align: justify;
+    font-family:'Times New Roman';
+ }
+ .sjrh3{
+    text-indent: 2em;
+    width: 600px;
+    text-align: justify;
+    font-family:'Times New Roman';
+ }
+ .gmbrgeo{
+    width: 30%;
+ }
+ .geo1{
+    text-indent: 2em;
+    width: 600px;
+    text-align: justify;
+    font-family:'Times New Roman';
+ }
+ .geo2{
+    text-indent: 2em;
+    width: 600px;
+    text-align: justify;
+    font-family:'Times New Roman';
+ }
+
+ .gmbrwst{
+    width: 20%;
+ }
+ .wst{
+    text-indent: 2em;
+    width: 600px;
+    text-align: justify;
+    font-family:'Times New Roman';
+ }
+
+ .yo{
+    text-align: center;
+    font-family: Arial;
+ }
+ .kk{
+    color: blue;
+    text-transform:capitalize;
+ }
+ .il{
+    color: blue;
+    font-family: Arial;
+    text-align: center;
+ }
+
+ footer{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(87, 87, 231);
+    font-weight: bold;
+ }
+ .pp{
+    align-items: center;
+ }
+
+ .sjr{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 30px;
+   margin-right: 400px;
+   position: relative;
+   
+ }
+ .geo{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 50px;
+   margin-right: 400px;
+   background-color: #00a2c6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+ }
+ .wsit{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-right: 400px;
+   position: relative;
+ }
+
+ body{
+   padding: 0;
+   
+ }
+ .pip{
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+   margin-top: -1990px;
+   box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+   padding: 20px;
+   border-radius: 10px;
+ }
+
+ .tb{
+   border-style: solid;
+   border-color: rgb(0, 0, 0) ;
+   border-collapse: collapse;
+   border-radius: 10px;
+   margin-bottom:  20px;
+ }
+
+.tb tr th{
+   background-color: red;
+   color: white;
+   padding: 5PX;
+}
+.tb tr td a:hover{
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   text-decoration: none;
+}
+.tb tr td a{
+   color: black
+}
+
+@media screen and (max-width: 500px) {
+   main, aside {
+      max-width: 100%;
+      padding: 0;
+   }
+
+   .sjr {
+      max-width: 100%;
+   }
+}
